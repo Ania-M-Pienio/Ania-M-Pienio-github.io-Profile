@@ -62,7 +62,7 @@
                             src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
                         > </v-img> 
                         <hr style="marginTop: 20px;">
-                        <v-card-title class="title"> Projects Portal - Angular </v-card-title>
+                        <v-card-title class="title"> Project Portal - Angular </v-card-title>
                         <v-card-text align="left" style="fontSize: 16px; marginTop: 20px;">                                                     
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">

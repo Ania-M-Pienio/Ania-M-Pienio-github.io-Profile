@@ -73,10 +73,10 @@
 @media screen and (max-width: 430px) {
   .nav {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 100px;
   }  
   .bar {
-    height: 110px !important;
+    height: 150px !important;
   }
 
   .links {
@@ -111,7 +111,7 @@ export default {
     showPortfolio() {
       this.portfolio = true;
       console.log('now scrolling');
-      let element = document.getElementById("toBottom");
+      let element = document.getElementById("toInfo");
       element.scrollIntoView({block: "start", inline: "nearest", behavior: "smooth"}); 
 
     },
