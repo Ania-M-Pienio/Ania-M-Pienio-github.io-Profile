@@ -109,8 +109,7 @@ export default {
   },
   methods: {
     showPortfolio() {
-      this.portfolio = true;
-      console.log('now scrolling');
+      this.section = 5;
       let element = document.getElementById("toInfo");
       element.scrollIntoView({block: "start", inline: "nearest", behavior: "smooth"}); 
 

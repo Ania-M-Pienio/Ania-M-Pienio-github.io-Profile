@@ -7,14 +7,13 @@ const saveData = function(what, body) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body)
-  }).then(response => {
-    // If we don't get a 200 OK response, throw an error to the .catch()
-    if (!response.ok) {
-      console.log(`the response text is: `, response.statusText);
-      throw new Error(response.statusText);
-    }
+  }).then((response) => {
+    console.log(`the response text is: `, response);
+    // if (!response.ok) {     
+    //   throw new Error(response.statusText);
+    // }
     // Parse the response body from JSON to JS (an Array)
-    return response.json();
+    // return response.json();
   });
 }; // end of function saveData
 export { saveData };

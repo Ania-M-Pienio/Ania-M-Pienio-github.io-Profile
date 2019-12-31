@@ -176,7 +176,7 @@ export default {
       }
     },
     section: function(newVal, oldVal) {
-      console.log(`section has changed to ${newVal}`);
+      // console.log(`section has changed to ${newVal}`);
       this.Section.title = this.titles[newVal];
       this.Section.number = newVal;
     }
