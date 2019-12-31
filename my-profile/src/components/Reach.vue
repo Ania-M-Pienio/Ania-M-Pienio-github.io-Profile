@@ -80,7 +80,8 @@
                                 @click="clear">
                                 Clear  
                             </v-btn>                            
-                        </v-card-actions>     
+                        </v-card-actions>    
+                        <div> Response: {{response}} </div> 
                </v-card> 
                <v-card flat tile class="max-auto ma-3 pa-8" style="wordWrap: breakWord;" align="left" >
                         <v-img
@@ -91,8 +92,10 @@
                             src="https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         > </v-img> 
                </v-card>                   
-        </v-card>   
+        </v-card>  
+
     </div> 
+    
     
 </template>
 
@@ -136,6 +139,7 @@ export default {
                 Email: '',
                 pattern: ''
             },
+            response: '',
             emailRules: [
                 v => !!v || 'E-mail is required',
                 v => /.+@.+/.test(v) || 'E-mail must be valid',
@@ -164,6 +168,13 @@ export default {
                 saveData("subscribers", subscriber)
                     .then(response => {
                         console.log(response);
+                   
+                        if (response == `added`) {
+                                 this.response = `added, syyyyyck`;
+
+                        } else if (response == `duplicate key`) {
+                             this.response = `duplicate ya dummy. Bad Ani. Bad`;
+                        }
                     })
                     .catch(err => {
                         console.log(err);
