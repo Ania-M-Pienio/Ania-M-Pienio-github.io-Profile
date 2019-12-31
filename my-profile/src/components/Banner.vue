@@ -1,0 +1,50 @@
+<template>
+    <v-parallax
+        height="600"
+        dark
+        src="https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        >
+        <div>
+            <div
+                align="center"
+                justify="center"
+            >
+                <v-img 
+                    src="../assets/Profile.png"
+                    aspect-ration="1"
+                    max-width="400"
+                    max-height="400"
+                    style="marginBottom: 50px; border: solid white 20px;"
+                >
+                </v-img>
+            </div>
+        </div>
+        <div
+            align="center"
+            justify="center"
+            style="
+                backgroundColor: rgb(255, 255, 255, 0.85); 
+                marginLeft: -20px; 
+                marginRight: -20px; 
+                padding: 15px;"
+        >
+        <h1 class="display-3 font-weight-light mb-4" style="color: #32332f;"> Ania M. Pienio </h1>    
+        <h3 class="subheading" style="color: #32332f;"> Front-End Web Developer </h3>
+         </div>
+ 
+    </v-parallax>
+    
+</template>
+
+<style scoped>
+
+
+
+
+</style>
+
+<script>
+export default {
+    
+}
+</script>
