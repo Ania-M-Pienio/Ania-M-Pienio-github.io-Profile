@@ -16,9 +16,11 @@
                         <v-img
                             id="pic"
                             class="white--text"
-                            max-height="200"  
-                            max-width="500"               
-                            src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                            max-height="300"
+                            height ="300"  
+                            min-width="500" 
+                            width="100%"             
+                            src="https://image.shutterstock.com/image-photo/toronto-canada-july-13-2019-260nw-1462338341.jpg"
                         > </v-img>
                         <hr>
                         <v-card-title class="title">Computer Programming Diploma - Seneca College</v-card-title>
@@ -58,14 +60,54 @@
                                 target="_blank">Seneca College    
                             </v-btn>
                         </v-card-actions>     
-               </v-card>       
+               </v-card>   
+
+                <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
+                        <v-img
+                            id="pic"
+                            class="white--text"
+                            max-height="300"
+                            height="300"
+                            max-width="500"   
+                            width="80%"             
+                            src="https://pbs.twimg.com/media/D96ELQMX4AAGu8t.png"
+                        > </v-img>  
+                        <hr>
+                        <v-card-title class="title">Web Immersive Certification - Juno College</v-card-title>
+                        <v-card-text align="left" style="fontSize: 16px;"> 
+                            <p> Juno College of technology advances an individual who already has a background and passion in techology to the next level of Web Development. </p> 
+                            <p> Known for a dedication to diversity, Juno enriches their immersive programs with knowledge on building Accessible and fully responsive UI applications using React and Firebase. </p>                           
+                            <div class="list" style ="display: flex; flex-direction: row;">
+                             <p> <b> Relevant Course Work: </b> <br> 
+                             <ul>
+                                <li> Immersive Java Script 2019 </li>
+                                <li> Web Development Immersive Bootcamp 2020 </li>  
+                                
+                            </ul>
+                            </p>  
+                        </div>                         
+                        </v-card-text>
+                        <v-card-actions class="actions" style="display: flex; flexDirection: row; wordWrap: normal;">
+                            <v-btn text
+                                href="https://junocollege.com/bootcamp"
+                                target="_blank"
+                            >Bootcamp</v-btn>
+                            <v-btn outlined
+                                href="https://junocollege.com/"
+                                target="_blank">JUNO    
+                            </v-btn>
+                        </v-card-actions>
+                        
+                </v-card>    
                
                <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
                         <v-img
                             id="pic"
                             class="white--text"
-                            max-height="200"
-                            max-width="500"                          
+                            max-height="300"
+                            height="300"
+                            max-width="400"  
+                            width="100%"                        
                             src="https://i.cbc.ca/1.2985143.1499893210!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/york-university-toronto-ontario.jpg"
                         > </v-img>
                         <hr>
@@ -86,7 +128,7 @@
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">
                             <v-btn text
-                                href="https://www.uvic.ca/interdisciplinary/europe/study-tour/index.php"
+                                href="https://www.uvic.ca/interdisciplinary/europe/study-tour/index.php?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                 target="_blank"
                             >Student Mission to the EU</v-btn>
                             <v-btn outlined
@@ -96,41 +138,7 @@
                         </v-card-actions>
                 </v-card>
 
-                 <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
-                        <v-img
-                            id="pic"
-                            class="white--text"
-                            max-height="200"
-                            max-width="500"                
-                            src="https://images.pexels.com/photos/1076815/pexels-photo-1076815.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                        > </v-img>  
-                        <hr>
-                        <v-card-title class="title">RECO Accreditation and Liscence - Orea College</v-card-title>
-                        <v-card-text align="left" style="fontSize: 16px;"> 
-                            <p> Real Estate as a profession is one the most challenging and also rewarding careers in the GTA. </p> 
-                            <p> The Real Estate Council of Ontario has mandated a program of study that includes immersive work in principles of appraisal, contract law, business ethics, duty of care, fiduciary responsibilities and due dilligence. </p>                           
-                            <div class="list" style ="display: flex; flex-direction: row;">
-                             <p> <b> Accolades: </b> <br> 
-                             <ul>
-                                <li> Member Real Estate Councile of Ontario 2009 </li>
-                                <li> Member Toronto Real Estate Board 2011 </li>  
-                                <li> Fintrac Compliance Officer 2009 - 2017  </li>
-                            </ul>
-                            </p>  
-                        </div>                         
-                        </v-card-text>
-                        <v-card-actions class="actions" style="display: flex; flexDirection: row; wordWrap: normal;">
-                            <v-btn text
-                                href="https://www.orea.com/"
-                                target="_blank"
-                            >Orea</v-btn>
-                            <v-btn outlined
-                                href="https://www.reco.on.ca/"
-                                target="_blank">RECO    
-                            </v-btn>
-                        </v-card-actions>
-                        
-                </v-card>
+
 
         </v-card>   
     </div>    

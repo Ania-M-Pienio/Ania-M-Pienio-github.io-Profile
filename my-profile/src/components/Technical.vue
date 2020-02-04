@@ -88,9 +88,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                    <td>JavaScript (ECS6)</td>
+                                    <td>JavaScript (ES6)</td>
                                     <td>TypeScript</td>
-                                    <td>HTML5 + CSS</td>                                    
+                                    <td>HTML5 + CSS3</td>                                    
                                     </tr>
                                     <tr>
                                     <td>Java SE</td>
