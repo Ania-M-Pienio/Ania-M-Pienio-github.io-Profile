@@ -22,7 +22,7 @@
                             src="https://cdn-media-1.freecodecamp.org/images/1*ieROYZuCX-w0p9V7UswJbQ.png"
                         > </v-img>
                         <hr style="marginTop: 25px;">
-                        <v-card-title class="title">Teams Portal</v-card-title>
+                        <v-card-title class="title">Teams</v-card-title>
                         <v-card-title class="title">Vue</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px; marginTop: 20px;"> 
                         </v-card-text>
@@ -44,7 +44,7 @@
                             src="https://cdn.worldvectorlogo.com/logos/react.svg"
                         > </v-img>
                         <hr style="marginTop: 50px;">
-                        <v-card-title class="title"> Teams Portal </v-card-title>
+                        <v-card-title class="title"> Teams </v-card-title>
                         <v-card-title class="title"> React </v-card-title>
                         <v-card-text align="left" style="fontSize: 16px; marginTop: 20px;">                                                     
                         </v-card-text>
@@ -64,7 +64,7 @@
                             src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"
                         > </v-img> 
                         <hr style="marginTop: 20px;">
-                        <v-card-title class="title"> Project Portal</v-card-title>
+                        <v-card-title class="title"> Projects</v-card-title>
                         <v-card-title class="title">Angular</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px; marginTop: 20px;">                                                     
                         </v-card-text>

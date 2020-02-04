@@ -74,7 +74,7 @@
 }
 
 .social-button {
-  padding: 2%;
+  padding: 10%;
   padding-top: 0;
 }
 </style>

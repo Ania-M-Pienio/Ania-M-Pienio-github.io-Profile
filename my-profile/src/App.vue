@@ -3,7 +3,7 @@
     <p style="height: 30px; color: black;"> <span v-if="portfolio"> </span> </p>
     <v-app-bar app style="backgroundColor: black;" class="bar">
       <v-toolbar-title class="headline text-uppercase" style="color: gainsboro;">
-        <span>cv</span>
+        <span></span>
         <span class="font-weight-light"></span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
