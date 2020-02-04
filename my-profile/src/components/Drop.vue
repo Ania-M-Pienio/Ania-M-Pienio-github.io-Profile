@@ -32,7 +32,7 @@
 export default {
      data: () => ({
       items: [
-        { title: 'About'},
+        { title: 'About Me'},
         { title: 'Technical Skills'},     
         { title: 'Education'},  
         { title: 'Experience'},

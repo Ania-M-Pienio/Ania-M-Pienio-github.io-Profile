@@ -25,7 +25,7 @@
                         <v-card-text align="left" style="fontSize: 16px;">                         
                             <p> As an adaptive team contributor, I embrace diversity among my colleagues and thrive in multicultural environments.  When each team member brings their own unique perspective to the table, all obstacles can be overcome.</p> 
                             <p> My experience in teams includes long-term work on collaborative projects and includes progress tracking, commitment to objectives, continuous feedback and building cohesion. </p>                       
-                            <p> I recognize that as organizations shift a bulk of their team work to the Cloud, iterative and self-organized individuals become critical components. For this reason, I am deeply committed to Agile and its 12 Principles to software development.  </p>    
+                            <p> I recognize that as organizations shift a bulk of their team work to the Cloud, iterative and self-organized individuals become critical components. For this reason, I am deeply committed to Agile and its 12 Principles of software development.  </p>    
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">
                             <v-btn text
@@ -51,7 +51,7 @@
                         <v-card-title class="title">Testing and Quality</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                                            
                             <p> My ultimate ambition is to deliver a high-quality and stress-tested product to my stakeholders.  I have experience planning, drafting and executing test cases to deliver on that ambition. </p>                           
-                            <p> In order to ensure a flawless User Experience (UX) I have performed many hours of meticulous testing of the front-end and have professional experience evaluating and testing the work of others. </p>   
+                            <p> In order to ensure a flawless User Experience (UX) I have committed many hours to the meticulous testing of the front-end interface and have professional experience evaluating and testing the work of others. </p>   
                             <p> I follow the 4 Golden Rules of User Interface Design. </p>                         
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">

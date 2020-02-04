@@ -45,8 +45,7 @@
 
     <v-content>
       <div class="flex-spacer">
-      <main-container 
-      
+      <main-container       
         class="main" 
         :portfolio="portfolio" 
         :section="section"
@@ -121,7 +120,6 @@ export default {
       this.section = id;
       let element = document.getElementById("toInfo");
       element.scrollIntoView({block: "start", inline: "nearest", behavior: "smooth"}); 
-      // console.log(`this is the new section: ${this.section}`);
     }
   }
 };

@@ -21,8 +21,11 @@
                             src="https://images.pexels.com/photos/164531/pexels-photo-164531.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         > </v-img>
                         
-               </v-card>         
-              <v-card flat tile class="max-auto ma-3 pa-8" style="wordWrap: breakWord;" align="left" >
+               </v-card>   
+                    
+              <v-card id="toInput" flat tile class="max-auto ma-3 pa-8" style="wordWrap: breakWord;" align="left" >
+   
+                  
                         <v-img
                             id="pic"
                             class="white--text"
@@ -32,7 +35,29 @@
                         > </v-img>
                         <hr>
                         <v-card-title class="title">Let's Stay in Touch </v-card-title>
-                        <v-card-text align="left" style="fontSize: 16px; marginTop: 20px;"> 
+
+                                          <div v-show="response">
+                    <div v-if="response === `added`"> 
+                        <div class="response"> 
+                            
+                            <span class="responseTitle"> THANK YOU! </span> 
+                            Your email: <span class="responseEmail"> {{subscriber.Email}} </span> has been added
+                         
+                        </div>
+
+                    </div>
+                    <div v-else> 
+                        <div class="response"> 
+                            
+                            <span class="responseTitle"> OOPS! </span> 
+                            Your email: <span class="responseEmail"> {{subscriber.Email}} </span> is already on the list
+                            <span class="responseSuggest"> Perhaps <a @click="tryAgain" class="responseTry"> try again </a>, using a different email </span>
+
+                         
+                        </div>
+                    </div>
+                  </div> 
+                        <v-card-text v-show="!response" align="left" style="fontSize: 16px; marginTop: 20px;"> 
                             <v-form
                                 ref="form"
                                 v-model="valid"
@@ -69,6 +94,7 @@
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">
                             <v-btn 
+                                :disabled="isSubmitted"
                                 depressed color="grey darken-4" 
                                 style="color: gainsboro;"
                                 @click ="submit">
@@ -81,7 +107,7 @@
                                 Clear  
                             </v-btn>                            
                         </v-card-actions>    
-                        <div> Response: {{response}} </div> 
+                    
                </v-card> 
                <v-card flat tile class="max-auto ma-3 pa-8" style="wordWrap: breakWord;" align="left" >
                         <v-img
@@ -100,9 +126,39 @@
 </template>
 
 <style scoped>
-.left {
+    @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+    .left {
         text-align: left;
     }
+
+    .response {
+        height: 200px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .responseTitle {
+        font-size: 40px;
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .responseEmail {
+        color: rgb(231, 52, 117);
+    }
+
+    .responseSuggest {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .responseTry {
+        color: rgb(231, 52, 117);
+    }
+    .responseTry:hover {
+        text-decoration: underline;
+     }
 
      @media screen and (max-width: 1600px) {
         #container {
@@ -139,6 +195,7 @@ export default {
                 Email: '',
                 pattern: ''
             },
+            isSubmitted: false,
             response: '',
             emailRules: [
                 v => !!v || 'E-mail is required',
@@ -167,13 +224,13 @@ export default {
                 console.log(subscriber);
                 saveData("subscribers", subscriber)
                     .then(response => {
-                        console.log(response);
-                   
+                        console.log(response);  
+                        this.isSubmitted = true;                 
                         if (response == `added`) {
-                                 this.response = `added, syyyyyck`;
+                            this.response = `added`;
 
                         } else if (response == `duplicate key`) {
-                             this.response = `duplicate ya dummy. Bad Ani. Bad`;
+                             this.response = `duplicate`;
                         }
                     })
                     .catch(err => {
@@ -181,9 +238,18 @@ export default {
                     })
             } 
         },
+
+        tryAgain() {
+            this.isSubmitted = false;
+            this.response =``;
+            this.subscriber.Email = '';
+        },
+
         clear() {
             this.$refs.form.reset();
             this.$refs.form.resetValidation();
+            this.isSubmitted = false;
+            this.response =``;
         }
     }
     
