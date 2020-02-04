@@ -31,15 +31,6 @@
         <v-icon style="color: gainsboro; marginRight: 10px;"> mdi-github-box </v-icon>
         <span class="mr-2" style="color: gainsboro;">Github</span>
       </v-btn>
-       <v-btn
-        class="links"
-        text
-        href="https://www.linkedin.com/in/letscreatetogether/"
-        target="_blank"
-      >
-         <v-icon style="color: gainsboro; marginRight: 10px;"> mdi-linkedin-box </v-icon>
-        <span class="mr-2" style="color: gainsboro;">LinkedIn</span>
-      </v-btn>
       </div>
     </v-app-bar>
 
