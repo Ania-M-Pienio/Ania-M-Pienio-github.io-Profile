@@ -12,18 +12,19 @@
             tile 
             min-width="100"      
         >       
-              <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: breakWord;" >
+              <v-card flat tile class="max-auto ma-3 pa-2 photo" style="wordWrap: breakWord;" >
                         <v-img
                             id="pic"
                             class="white--text"
                             max-height="300"
-                            height ="300"  
-                            min-width="500" 
-                            width="100%"             
-                            src="https://image.shutterstock.com/image-photo/toronto-canada-july-13-2019-260nw-1462338341.jpg"
+                            height="300"
+                            max-width="400"  
+                            width="100%"     
+                            contain ="true"          
+                            src="https://cbie.ca/wp-content/uploads/2017/02/Seneca.gif"
                         > </v-img>
                         <hr>
-                        <v-card-title class="title">Computer Programming Diploma - Seneca College</v-card-title>
+                        <v-card-title class="title">Computer Programming Diploma &nbsp;<span class="college"> Seneca College </span> </v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                         
                             <p> Computer Programming at Seneca College is a 2-year diploma accredited by the Association for Information Technology Professionals.</p> 
                             <p> The program provides a variety of skills ranging from hands-on mobile development all the way to the mastering of high-level theoretical concepts. </p>      
@@ -68,12 +69,13 @@
                             class="white--text"
                             max-height="300"
                             height="300"
-                            max-width="500"   
-                            width="80%"             
+                            max-width="400"   
+                            width="100%"     
+                            contain ="true"                                     
                             src="https://pbs.twimg.com/media/D96ELQMX4AAGu8t.png"
                         > </v-img>  
                         <hr>
-                        <v-card-title class="title">Web Immersive Certification - Juno College</v-card-title>
+                        <v-card-title class="title">Web Immersive Certification &nbsp; <span class="college"> Juno College </span> </v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;"> 
                             <p> Juno College of technology advances an individual who already has a background and passion in techology to the next level of Web Development. </p> 
                             <p> Known for a dedication to diversity, Juno enriches their immersive programs with knowledge on building Accessible and fully responsive UI applications using React and Firebase. </p>                           
@@ -107,11 +109,12 @@
                             max-height="300"
                             height="300"
                             max-width="400"  
-                            width="100%"                        
+                            width="100%"     
+                            contain ="true"                                                
                             src="https://i.cbc.ca/1.2985143.1499893210!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/york-university-toronto-ontario.jpg"
                         > </v-img>
                         <hr>
-                        <v-card-title class="title"> Bachelor of Arts Political Science - York University </v-card-title>
+                        <v-card-title class="title"> Bachelor of Arts Political Science &nbsp; <span class="college"> York University </span> </v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                                            
                             <p> Renowned for its interdisciplinary and innovative programs, York produces students that think critically and are able to analyze independently. </p>                           
                             <p> York is a public research and writing university that has international appeal, bringing together diverse sets of people seeking a well-rounded education. </p>   
@@ -146,9 +149,12 @@
 </template>
 
 <style scoped>
-.left {
-        text-align: left;
-    }
+    .left {
+            text-align: left;
+        }
+    .photo {
+        padding: 5%;
+    }    
 
     @media screen and (max-width: 1840px) {
         .list {
@@ -178,6 +184,7 @@
         .list {
             flex-direction: column !important;
         }
+
     } 
 
 
