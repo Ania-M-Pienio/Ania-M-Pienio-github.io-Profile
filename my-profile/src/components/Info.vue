@@ -14,7 +14,8 @@
         </v-btn>
 
         <div
-          class="display-2 font-weight-light mb-4"
+          class="font-weight-light mb-4"
+          id="sectionTitle"
           style="width: 800px; color: #ededed; marginLeft: 30px;  marginRight: 30px;"
         >
           {{ Section.title }}
@@ -74,7 +75,7 @@
   margin-top: 20px;
   width: 80px;
   height: 80px;
-  border: 1px solid #E57373;
+  border: 1px solid #EF9A9A;
   border-radius: 40px 40px 40px 40px;
   display: flex;
   flex-direction: row;
@@ -90,6 +91,10 @@
 .circleButtons {
   height: 50px;
   background-color: rgba(28, 28, 31, 0.8);
+}
+
+#sectionTitle {
+    font-size: 50px;    
 }
 
 .slideButtons {
@@ -109,6 +114,13 @@
     margin-top: 20px;
     width: 80px;
   }
+}
+
+@media screen and (max-width: 500px) {
+  #sectionTitle {
+    font-size: 35px;    
+  }
+
 }
 </style>
 
