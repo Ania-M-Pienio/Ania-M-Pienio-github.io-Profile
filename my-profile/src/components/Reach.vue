@@ -227,10 +227,8 @@ export default {
         Date: moment()
       };
       if (this.$refs.form.validate()) {
-        console.log(subscriber);
         saveData("subscribers", subscriber)
           .then(response => {
-            console.log(response);
             this.isSubmitted = true;
             if (response == `added`) {
               this.response = `added`;
@@ -239,7 +237,7 @@ export default {
             }
           })
           .catch(err => {
-            console.log(err);
+
           });
       }
     },

@@ -3,7 +3,7 @@
     <v-menu offset-y>
       <template v-slot:activator="{ on }">
         <v-btn
-          color="red lighten-4"
+          color="red lighten-3"
           light
           v-on="on"
         >
