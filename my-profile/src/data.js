@@ -6,8 +6,8 @@ const saveData = function(what, body) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body)
-  }).then((response) => {
-    if (!response.ok) {     
+  }).then(response => {
+    if (!response.ok) {
       throw new Error(response.statusText);
     }
     // Parse the response body from JSON to JS (an Array)
