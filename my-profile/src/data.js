@@ -1,7 +1,6 @@
 const Url = "https://profile-api-ania.herokuapp.com/";
 
 const saveData = function(what, body) {
-  // console.log("In SaveData Now!!!!!!!!!!!!!")  
   var URI = Url + what;
   return fetch(URI, {
     method: "POST",

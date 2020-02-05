@@ -19,13 +19,10 @@
                             max-height="400"  
                             max-width="600"                                                  
                             src="https://images.pexels.com/photos/164531/pexels-photo-164531.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                        > </v-img>
-                        
+                        > </v-img>               
                </v-card>   
                     
               <v-card id="toInput" flat tile class="max-auto ma-3 pa-8" style="wordWrap: breakWord;" align="left" >
-   
-                  
                         <v-img
                             id="pic"
                             class="white--text"
@@ -90,7 +87,6 @@
                                     label="Company or Organization"
                                 ></v-text-field>  
                             </v-form>  
-                            <!-- <p> {{subscriber.email}} - {{subscriber.firstName}} - {{subscriber.lastName}} - {{subscriber.phoneNum}} - {{subscriber.company}} </p>                                   -->
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">
                             <v-btn 
@@ -171,12 +167,6 @@
             max-width: 100% !important;
         }
     }  
-
-    @media screen and (max-width: 430px) {
-        /* .actions {
-            flex-direction: column !important;
-        } */
-    }
 
 </style>
 

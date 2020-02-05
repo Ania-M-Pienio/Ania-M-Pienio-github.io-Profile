@@ -23,10 +23,12 @@
                             src="https://ict.senecacollege.ca/sites/default/files/public_files/Techcom.jpg"
                         > </v-img>
                         <hr>
-                        <v-card-title class="title">QA Analyst - Techcom Systems </v-card-title>
-                        <v-card-text align="left" style="fontSize: 16px;">                         
+                        <v-card-title class="title">Techcom Systems </v-card-title>
+                        
+                        <v-card-text align="left" style="fontSize: 16px;">                        
                             <p> Techcom is a leading Canadian software technology provider in the field of strategic inter-organizational portfolio and third-party communication management.</p> 
-                            <p> 
+                            <h4>QA Analysis and Front-End Testing</h4>
+                            <p>                                  
                                 <ul>
                                 <li> Gathered requirements to plan, draft, execute and document Test Cases </li>
                                 <li> Worked within and beyond plan - leading to the discovery of critical defects </li>
@@ -53,16 +55,17 @@
                             src="https://cdn.canada247.info/assets/uploads/c15d29249e77d61cccb700268b1a3013_-ontario-regional-municipality-of-peel-mississauga-ak-tradinghtml.jpg"                 
                         > </v-img>
                         <hr>
-                        <v-card-title class="title">Warehouse Logistics - AK Trading</v-card-title>
+                        <v-card-title class="title">AK Trading Home Options</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                                            
                            <p> AK Trading Home Options is an indepdently operated bathroom product retailer which supplies quality products to some of the most successful renovators, contractors, and designers in the GTA.</p> 
-                            <p> 
+                           <h4>Sales and Warehouse Logistics</h4>
+                            <p>
                                 <ul>
-                                <li> Collaborated with management staff, sales staff and warehouse personnel in order to ascertain an appropriate business process </li>
-                                <li> Delivered a scalable inventory management program to address business needs </li>
-                                <li> Implemented an inventory store on AppSheet - a mobile-friendly business app supported by GoogleSheets </li>
+                                    <li> Collaborated with management staff, sales staff and warehouse personnel in order to ascertain an appropriate business process </li>
+                                    <li> Delivered a scalable inventory management program to address business needs </li>
+                                    <li> Implemented an inventory store on AppSheet - a mobile-friendly business app supported by GoogleSheets </li>
                                 </ul>
-                            </p>                        
+                            </p>                    
                         </v-card-text>
                         <v-card-actions class="actions" style="display: flex; flexDirection: row;">
                             <v-btn text
@@ -86,9 +89,10 @@
                             src="http://socialcondosvip.ca/wp-content/uploads/sites/59/2017/10/Pemberton-Group.jpg"
                         > </v-img>  
                         <hr>
-                        <v-card-title class="title">Sales Representative (Circle M Realty)</v-card-title>
+                        <v-card-title class="title">Pemberton Group</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                      
-                            <p> With more than 50 years of experience creating successful residential and commercial devleopments, Pemberton Group is a major player in the evoloution of the city's landscape and landmarks.</p> 
+                            <p> With more than 50 years of experience creating successful residential and commercial devleopments, Pemberton Group is a major player in the evoloution of the city's landscape and landmarks.</p>
+                             <h4>Sales, Administration and Compliance</h4> 
                             <p> 
                                 <ul>
                                 <li> As Compliance Officer - created and implemented a functional Compliance Regime for the realty to adhere to federal regulations under FINTRAC </li>
