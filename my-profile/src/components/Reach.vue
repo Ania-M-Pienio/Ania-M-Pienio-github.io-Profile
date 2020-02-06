@@ -36,6 +36,7 @@
           class="white--text"
           max-height="300"
           max-width="500"
+  
           src="https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         >
         </v-img>
@@ -133,7 +134,7 @@
           id="pic"
           class="white--text"
           max-height="400"
-          max-width="600"
+          max-width="500"
           src="https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
         >
         </v-img>
