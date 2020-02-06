@@ -66,7 +66,7 @@
                         </v-card-actions>
                 </v-card>
 
-                 <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">   
+                 <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
                         <v-img
                             id="pic"
                             class="white--text"

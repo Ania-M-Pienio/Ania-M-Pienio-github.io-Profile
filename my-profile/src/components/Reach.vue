@@ -40,7 +40,8 @@
           src="https://images.pexels.com/photos/316465/pexels-photo-316465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
         >
         </v-img>
-        <hr />
+        <social></social>
+        <!-- <hr /> -->
         <v-card-title class="title">Let's Stay in Touch </v-card-title>
 
         <div v-show="response">
@@ -121,6 +122,7 @@
           >
             Clear
           </v-btn>
+        
         </v-card-actions>
       </v-card>
       <v-card
@@ -194,7 +196,9 @@
 <script>
 import moment from "moment";
 import { saveData } from "../data";
+import Social from "./Social";
 export default {
+  components: { Social },
   data: function() {
     return {
       valid: true,
