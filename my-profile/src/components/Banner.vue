@@ -1,12 +1,10 @@
 <template>
   <v-parallax
-    height="850"
+    height="750"
     dark
     src="https://images.pexels.com/photos/1084510/pexels-photo-1084510.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
   >
-    <!-- src="https://images.pexels.com/photos/843266/pexels-photo-843266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1050&w=1560" -->
-    <!-- src="https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" -->
-    <!-- src="https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" -->
+
     <div>
       <div align="center" justify="center">
         <v-img
@@ -14,7 +12,7 @@
           aspect-ration="1"
           max-width="450"
           max-height="450"
-          style="marginBottom: 50px; border: 25px solid white;"
+          style="marginBottom: 50px; border: 15px solid #FAFAFA;"
         >
         </v-img>
       </div>

@@ -12,7 +12,7 @@
       tile
       min-width="100"
     >
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: breakWord;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: breakWord; borderBottom: 5px solid #EF9A9A;">
         <v-img
           id="pic"
           class="white--text"
@@ -119,7 +119,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">
         <v-img
           id="pic"
           class="white--text"
@@ -194,7 +194,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">
         <v-img
           id="pic"
           class="white--text"
