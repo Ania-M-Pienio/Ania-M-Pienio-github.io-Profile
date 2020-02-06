@@ -12,7 +12,7 @@
       tile
       min-width="100"
     >
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: breakWord; borderBottom: 5px solid #EF9A9A;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: breakWord;">
         <v-img
           id="pic"
           class="white--text"
@@ -21,7 +21,7 @@
           src="https://images.pexels.com/photos/383568/pexels-photo-383568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         >
         </v-img>
-        <hr />
+        <hr/>
         <v-card-title class="title">Frameworks and Languages</v-card-title>
 
         <v-card-text align="left" style="fontSize: 16px;">
@@ -119,7 +119,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal;">
         <v-img
           id="pic"
           class="white--text"
@@ -194,7 +194,7 @@
         </v-card-actions>
       </v-card>
 
-      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">
+      <v-card flat tile class="max-auto ma-3 pa-1" style="wordWrap: normal;">
         <v-img
           id="pic"
           class="white--text"

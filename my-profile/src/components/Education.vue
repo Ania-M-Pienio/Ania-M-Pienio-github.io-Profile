@@ -12,7 +12,7 @@
             tile 
             min-width="100"      
         >       
-              <v-card flat tile class="max-auto ma-3 pa-2 photo" style="wordWrap: breakWord; borderBottom: 5px solid #EF9A9A;" >
+              <v-card flat tile class="max-auto ma-3 pa-2 photo" style="wordWrap: breakWord;" >
                         <v-img
                             id="pic"
                             class="white--text"
@@ -20,7 +20,7 @@
                             height="300"
                             max-width="400"  
                             width="100%"     
-                            contain ="true"          
+                            contain         
                             src="https://cbie.ca/wp-content/uploads/2017/02/Seneca.gif"
                         > </v-img>
                         <hr>
@@ -63,7 +63,7 @@
                         </v-card-actions>     
                </v-card>   
 
-                <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">   
+                <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
                         <v-img
                             id="pic"
                             class="white--text"
@@ -71,7 +71,7 @@
                             height="300"
                             max-width="400"   
                             width="100%"     
-                            contain ="true"                                     
+                            contain                                     
                             src="https://pbs.twimg.com/media/D96ELQMX4AAGu8t.png"
                         > </v-img>  
                         <hr>
@@ -102,7 +102,7 @@
                         
                 </v-card>    
                
-               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">   
+               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
                         <v-img
                             id="pic"
                             class="white--text"
@@ -110,7 +110,7 @@
                             height="300"
                             max-width="400"  
                             width="100%"     
-                            contain ="true"                                                
+                            contain                                              
                             src="https://i.cbc.ca/1.2985143.1499893210!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/york-university-toronto-ontario.jpg"
                         > </v-img>
                         <hr>

@@ -12,7 +12,7 @@
             tile 
             min-width="100"      
         >       
-              <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: breakWord; borderBottom: 5px solid #EF9A9A;" >
+              <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: breakWord;" >
                         <v-img
                             id="pic"
                             class="white--text"
@@ -20,7 +20,7 @@
                             max-width="500"               
                             src="https://images.pexels.com/photos/2306898/pexels-photo-2306898.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         > </v-img>
-                        <hr>
+                        <hr/>
                         <v-card-title class="title">Team Skills</v-card-title>
                         <v-card-text align="left" style="fontSize: 16px;">                         
                             <p> As an adaptive team contributor, I embrace diversity among my colleagues and thrive in multicultural environments.  When each team member brings their own unique perspective to the table, all obstacles can be overcome.</p> 
@@ -39,7 +39,7 @@
                         </v-card-actions>     
                </v-card>       
                
-               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;">   
+               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;">   
                         <v-img
                             id="pic"
                             class="white--text"

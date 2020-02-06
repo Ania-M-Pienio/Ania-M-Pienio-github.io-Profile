@@ -13,7 +13,7 @@
             min-width="100"      
         >
          
-              <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: breakWord; borderBottom: 5px solid #EF9A9A;" align="left" >
+              <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: breakWord;" align="left" >
                         <v-img
                             id="pic"
                             class="white--text"
@@ -46,7 +46,7 @@
                         </v-card-actions>     
                </v-card>       
                
-               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;" align="left">   
+               <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;" align="left">   
                         <v-img
                             id="pic"
                             class="white--text"
@@ -79,7 +79,7 @@
                         </v-card-actions>
                 </v-card>
 
-                 <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal; borderBottom: 5px solid #EF9A9A;" align="left">   
+                 <v-card flat tile class="max-auto ma-3 pa-2" style="wordWrap: normal;" align="left">   
                         <v-img
                             id="pic"
                             class="white--text"

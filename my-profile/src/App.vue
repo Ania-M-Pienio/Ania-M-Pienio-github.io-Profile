@@ -49,6 +49,14 @@
   </v-app>
 </template>
 
+<style>
+
+hr {
+  border: 2px solid #EF9A9A;
+}
+
+</style>
+
 <style scoped>
 
 .links:hover {
@@ -76,9 +84,6 @@
     height: 2000px;
   }
 }  
-
-
-
 </style>
 
 <script>
